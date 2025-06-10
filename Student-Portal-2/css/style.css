@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.form-label.required:after {
+    content: " *";
+    color: rgb(194, 66, 175);
+}
